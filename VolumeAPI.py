@@ -42,6 +42,8 @@ def getVols(coins,outSym,exchanges):
 coins = ["ETH","LTC","RDD"]
 outSym = "BTC"
 exchanges = ["Bisq","QuadrigaCX","Binance","Kucoin"]
+
+
 exchangeDict = {"Exchanges":exchanges}
 coinList = getVols(coins,outSym,exchanges)
 	
